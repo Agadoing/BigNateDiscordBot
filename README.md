@@ -1,2 +1,2 @@
-# BigNateDiscordBot
+# GoComicsDiscordBot
 //TODO
