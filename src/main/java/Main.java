@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Main extends ListenerAdapter {
     public static void main(String[] args) throws LoginException{
 
-        String token = "token";
+        String token = "{ secrets.SECRET_KEY }}";
         JDABuilder.createDefault(token).addEventListeners(new Main()).setActivity(Activity.playing("Enter +help for help!")).build();
 
     }
